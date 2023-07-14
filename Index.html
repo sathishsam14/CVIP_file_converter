@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a68a214389.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand navbar_head" href="#">TransEasy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" onclick="audio()">Audio Converter <span class=" sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="video()">Video Converter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="image()">Image Converter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="Document()">Document Converter</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <div class="text-center pt-5">
+            <img class="image_one" src="https://static.vecteezy.com/system/resources/previews/009/797/042/non_2x/switch-icon-on-white-background-flat-style-exchange-icon-for-your-web-site-design-logo-app-ui-transfer-symbol-convert-sign-vector.jpg" />
+            <h1 class="head_color" id="heading">Image Converter</h1>
+            <p>Convert your file to any format</p>
+        </div>
+
+        <div class="div_container">
+            <div class="secContainer ">
+                <div class="input-group input_width container">
+                    <div class="custom-file ">
+                        <input type="file" class="custom-file-input" id="inputGroupFile02">
+                        <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Choose file</label>
+                    </div>
+                    <div class="input-group-append ">
+                        <span class="input-group-text btn bg-primary" id="inputGroupFileAddon02" style="color:white;">Upload</span>
+                    </div>
+                </div>
+                <div class="d-flex flex-row mt-5 input_width container">
+                    <label for="firstOne" class="format_style"> Input Format:</label>
+                    <div class="dropdown ml-3" id="firstOne">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            All
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <button class="dropdown-item" type="button" id="one">JPEG</button>
+                            <button class="dropdown-item" type="button" id="two">PNG</button>
+                            <button class="dropdown-item" type="button" id="three">GIF</button>
+                            <button class="dropdown-item" type="button" id="four"></button>
+                            <button class="dropdown-item" type="button" id="five"></button>
+                        </div>
+                    </div>
+                    <label for="secondOne" class="format_style ml-auto">Output Format:</label>
+                    <div class="dropdown ml-3" id="secondOne">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            All
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <button class="dropdown-item" type="button" id="ones">JPEG</button>
+                            <button class="dropdown-item" type="button" id="twos">PNG</button>
+                            <button class="dropdown-item" type="button" id="threes">GIF</button>
+                            <button class="dropdown-item" type="button" id="fours"></button>
+                            <button class="dropdown-item" type="button" id="fives"></button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="ml-4 mb-0">
+                    <input type="checkbox" class="checkboxs" id="checking">
+                    <label for="checking" class="format mt-5 ml-3">Create a link to share file</label>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center mb-5">
+                <button class="btn btn-primary button_width pu-1">Convert</button>
+            </div>
+        </div>
+    </div>
+    <div class="bottom d-flex flex-row justify-content-center">
+        <h1 class="bottom_word">Copyright © 2023 TransEasy - All Rights Reserved</h1>
+    </div>
+</body>
+
+</html>

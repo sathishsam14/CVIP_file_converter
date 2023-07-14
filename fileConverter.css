@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar_head {
+    color: #2C3FF9 !important;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.head_color {
+    color: #FA5D53;
+    font-weight: 600;
+    font-size: 50PX;
+}
+
+.image_one {
+    width: 10vh;
+    height: 10vh;
+}
+
+.div_container {
+    border-style: dotted;
+    border-color: #060606;
+    margin: 100px;
+    margin-top: 50px;
+    background-color: #FAF8E7;
+    font-family: "Roboto";
+}
+
+
+.format_style {
+    font-size: 26PX;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.second_input {
+    text-align: end;
+}
+
+.format {
+    font-size: 26PX;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.input_width {
+
+    margin: 10px;
+    display: flex;
+}
+
+
+.secContainer {
+    margin: 100px;
+}
+
+
+.button_width {
+    width: 160px;
+    font-size: 29px;
+    font-family: "Roboto";
+    margin-top: 35px;
+}
+
+
+.checkboxs {
+    width: 22px;
+    height: 20px;
+}
+
+.bottom {
+    background-color: #363634;
+    margin-top: 100px;
+}
+
+.bottom_word {
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
